@@ -1,0 +1,155 @@
+/* body{
+  background-color: #F5FFC6;
+  color: #1d0d20;
+  } */
+  
+
+  #navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .nav {
+    float: left;
+  }
+  
+  .nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navactive a{
+    display:block;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: #eca1a6;
+    text-decoration: none;
+    color:white;
+  }
+
+  
+  .nav a:hover:not(.navactive) {
+    background-color: #eca1a6;
+    text-decoration:none;
+    color:black;
+  }
+
+  .nav-right a:hover{
+    background-color:black;
+    text-decoration:none;
+    color:white;
+  }
+
+  .slider{
+    margin-top:3rem;
+    margin-bottom:2rem;
+    text-align:center;
+  }
+
+  .features{
+    margin-top:4rem;
+    margin-bottom:2rem;
+    margin-left:2rem;
+    margin-right:2rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    background-color:#33333314;
+    border:0.5px solid #eca1a6;
+    box-shadow:5px 8px 10px #3333331d;
+    border-radius:1rem;
+  }
+
+  .overview{
+    margin-top:4rem;
+    margin-bottom:2rem;
+    margin-left:2rem;
+    margin-right:2rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    background-color:#33333314;
+    border:0.5px solid #eca1a6;
+    box-shadow:5px 8px 10px #3333331d;
+    border-radius:1rem;
+  }
+
+  .start{
+    margin-top:2rem;
+    
+  }
+
+  .view-more{
+    margin-top:1rem;
+    background-color:#eca1a6;
+  }
+
+  .view-more:hover{
+    color:black;
+    background-color:#ec8c93;
+  }
+
+  .featured-work{
+    margin-top:4rem;
+    margin-bottom:2rem;
+    margin-left:2rem;
+    margin-right:2rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    background-color:#33333314;
+    border:0.5px solid #eca1a6;
+    box-shadow:5px 8px 10px #3333331d;
+    border-radius:1rem;
+  }
+
+  .shuffle-images{
+    margin-top:4rem;
+    margin-bottom:2rem;
+    margin-left:2rem;
+    margin-right:2rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    background-color:#33333314;
+    /* border:0.5px solid #eca1a6;
+    box-shadow:5px 8px 10px #3333331d; */
+    border-radius:1rem; 
+  }
+
+  .cookies{
+    width: 200;
+    height: 200;
+  }
+
+  .wedding{
+    width: 200;
+    height: 200;
+  }
+
+  .latest-posts{
+    margin-top:4rem;
+    margin-bottom:2rem;
+    margin-left:2rem;
+    margin-right:2rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    background-color:#33333314;
+    border:0.5px solid #eca1a6;
+    box-shadow:5px 8px 10px #3333331d;
+    border-radius:1rem;
+  }
+
+  .card{
+    border-radius:5px;
+  }
+
+  .card-link{
+    color:grey;
+  }
+
+  .card-link:hover{
+    color:rgb(90, 85, 85);
+  }
